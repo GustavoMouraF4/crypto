@@ -24,6 +24,7 @@ public class Main {
         System.out.println("Private Key: " + DatatypeConverter.printBase64Binary(keyPair.getPrivate().getEncoded()));
         System.out.println();
 
+        //password that will be encrypted
         String password = "Gustav0&M0oura$ç";
         //encrypted password that was generated in javaScript
         String encryptedPassword = "ZXZD7VZnJXQ+VRJ5PjucHls44ij2TaMOoOouTSyizYov6zHi9vEba00JqPcu8zquMWcQ5XWIRdeZCyyVh+cHctagUSmiSHuiVDhbBsOfU/+8pxBHmhcS38hj77CJmnk804ZonYD66S844SJqqH5XshCEerF9rxgQDSPfJVecskCuCBAaj+77tZyaR37C87C8QpvT5pgl1w8RigWsTTzFLe4saBC3Au1uzHurfTGzFgirTXWbtDimIc6xaFsLePqY4wFVNyWGffo+Gu2TP3luJONe3u8CoRPs/Tc/MX6JhACu2RnljfxIZPVnz9Y/waE7F22y83xI5r9OqZBg5Dkr6Q==";
